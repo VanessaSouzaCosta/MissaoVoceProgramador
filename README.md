@@ -5,10 +5,10 @@ Semana de aulas gratuitas com Rodolfo Mori:
 https://instagram.com/rodolfomorii
  
 Aula 1: O Oceano de Oportunidades na Programação:
-https://www.rodolfomori.com/cpl/
+(https://youtube.com/live/-n6ZqsrNcjI)
 
 Aula 2: A Segunda tecnologia na missão do Programador:
-https://www.rodolfomori.com/cpl-2/
+(https://youtube.com/live/oW0mPMNlBHs)
 
 Aula 3: A sua primeira linguagem de programação:
-https://www.rodolfomori.com/cpl-3/
+(https://www.youtube.com/live/rM2pnvDuxjY)
