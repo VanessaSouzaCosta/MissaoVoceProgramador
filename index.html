@@ -33,6 +33,7 @@ HTML é a estrutura que o site tem, os elementos que formam a página do site --
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <!-- fonte da escrita adicionada do site do google fonts -->
+    <script src="scripts.js"></script>
     <title> Dev Previsão </title>
     <!-- Título do site -->
 
@@ -41,16 +42,22 @@ HTML é a estrutura que o site tem, os elementos que formam a página do site --
 <body>
     <div class="caixa-maior">
         <!-- "div" é uma espécie de caixa para guardar os elementos; class é o nome pelo qual chama a tag-->
-        <input placeholder="Digite a Cidade">
+        <input class="input-cidade" placeholder="Digite a Cidade">
         <!-- placeholder é o nome ou a frase que fica dentro do buscador e some quando digita algo por cima -->
-        <button>
+        <button onclick="cliqueiNoBotao()">
+            <!-- Chamando a função que tá no arquivo scripts -->
             <img class="lupa" src="https://www.svgrepo.com/show/488200/find.svg">
         </button>
 
         <div class="caixa-media">
-            <h2> Tempo em São Paulo </h2> <!-- h2: Abreviação de HeadLine, título em inglês -->
+            <h2 class="cidade"> Tempo em São Paulo </h2> <!-- h2: Abreviação de HeadLine, título em inglês -->
             <p class="temperatura"> 28°C </p>
-            <p class="clima"> Nuvens Dispersas </p>
+
+            <div class="caixa-menor">
+                <img class="nuvem" src="https://openweathermap.org/img/wn/04n.png">
+                <p class="clima"> Nuvens Dispersas </p>
+            </div>
+
             <p class="umidade"> Umidade: 70% </p>
         </div>
 

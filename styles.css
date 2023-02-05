@@ -81,12 +81,23 @@ h2 {
 
 .temperatura {
     color: white;
+    margin-top: 25px;
+}
+
+.caixa-menor {
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
 }
 
 .clima {
     color: white;
+    margin-left: 20px;
+    text-transform: capitalize;
+    /* Deixa a primeira letra das palavras em maiusculo */
 }
 
 .umidade {
     color: white;
+    margin-top: 25px;
 }
