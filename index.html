@@ -27,18 +27,34 @@ HTML é a estrutura que o site tem, os elementos que formam a página do site --
     <!-- compatibilidade do site com internet explorer e Edge -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- compatibilidade com computadores e celulares -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- rel = relacão; stylesheet = folha de estilo (css) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <!-- fonte da escrita adicionada do site do google fonts -->
     <title> Dev Previsão </title>
     <!-- Título do site -->
 
 </head>
 
 <body>
-    <input>
-    <button>Buscar</button>
-    <h2> Tempo em São Paulo </h2> <!-- Abreviação de HeadLine, título em inglês -->
-    <p> 28°C </p>
-    <p> Nuvens Dispersas </p>
-    <p> Umidade: 70% </p>
+    <div class="caixa-maior">
+        <!-- "div" é uma espécie de caixa para guardar os elementos; class é o nome pelo qual chama a tag-->
+        <input placeholder="Digite a Cidade">
+        <!-- placeholder é o nome ou a frase que fica dentro do buscador e some quando digita algo por cima -->
+        <button>
+            <img class="lupa" src="https://www.svgrepo.com/show/488200/find.svg">
+        </button>
+
+        <div class="caixa-media">
+            <h2> Tempo em São Paulo </h2> <!-- h2: Abreviação de HeadLine, título em inglês -->
+            <p class="temperatura"> 28°C </p>
+            <p class="clima"> Nuvens Dispersas </p>
+            <p class="umidade"> Umidade: 70% </p>
+        </div>
+
+    </div>
 
 </body>
 
